@@ -465,7 +465,7 @@ h1 {
 }
 
 .carte-tarif {
-  width: 200px;
+  width: 320px;
   height: auto;
   background-image: radial-gradient(
       circle at 99% 33%,
@@ -590,20 +590,22 @@ label:nth-child(5) {
 .form-btn {
   display: block;
   margin: 20px auto;
-  padding: 10px;
+  padding: 20px;
   font-size: 18px;
   width: 250px;
   border-radius: 5px;
   border: 1px solid #333;
 }
+
 @media screen and (max-width: 1100px) {
   #contact {
-    width: 80%;
+    width: 100%;
   }
   .form-btn {
     width: 80%;
   }
 }
+
 footer {
   text-align: center;
   padding: 15px 0;
