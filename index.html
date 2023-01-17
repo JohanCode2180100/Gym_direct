@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- add GOOGLE-FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;1,100&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&family=Poppins:ital,wght@0,100;1,100&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Gym_direct</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+
+    <nav>
+      <ul>
+        <li><a href="#" class="item-navigation">Accueil</a></li>
+        <li><a href="#" class="item-navigation">Materiel</a></li>
+        <li><a href="#" class="item-navigation">Tarifs</a></li>
+        <li><a href="#" class="item-navigation">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- ACCUEIL -->
+
+    <div class="accueil" id="home">
+      <div class="bloc-gauche-accueil">
+        <h1>Gym Direct</h1>
+        <p>Depassez vos limites</p>
+        <p>Entrainez-vous...</p>
+        <p>Progressez</p>
+        <div class="cont-btn-home">
+          <a href="#" class="btn-accueil b1">Equipement</a>
+          <a href="#" class="btn-accueil b2">contact</a>
+        </div>
+      </div>
+      <div class="bloc-droit-accueil"></div>
+    </div>
+
+    <!-- SECTION 1 INFO -->
+
+    <h2 class="titre-section-info">SE (RE) PRENDRE EN MAIN</h2>
+    <!-- CARTE INFO 1 -->
+    <section class="section-info" id="infos">
+      <div class="carte-info">
+        <div class="container-photo">
+          <img
+            src="./assets/pictures/img-info-1.jpg"
+            alt="femme faisant sport"
+          />
+        </div>
+        <h2>Faire partie d'un groupe</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          eos doloremque minus vitae dolorem cupiditate!
+        </p>
+        <img
+          class="deco-info"
+          src="./assets/pictures/points.png"
+          alt="decoration petits points noirs"
+        />
+      </div>
+
+      <!-- CARTE INFO 2 -->
+
+      <div class="carte-info">
+        <div class="container-photo">
+          <img
+            src="./assets/pictures/img-info-2.jpg"
+            alt="homme montrant ses muscles"
+          />
+        </div>
+        <h2>Atteindre un objectif</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          eos doloremque minus vitae dolorem cupiditate!
+        </p>
+      </div>
+
+      <div class="carte-info">
+        <div class="container-photo">
+          <img src="./assets/pictures/img-info-3.jpg" alt="un rack de squat" />
+        </div>
+        <h2>Repousser ses limites</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          eos doloremque minus vitae dolorem cupiditate!
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+
+    <section id="choix">
+      <div class="entrainement-choix">
+        <h3>Salle de sport</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+          consequatur voluptate reprehenderit nesciunt explicabo eum.
+        </p>
+        <button class="btn-outline-choix" type="button">Voir les prix</button>
+      </div>
+
+      <div class="entrainement-choix">
+        <h3>Cross Fit</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+          consequatur voluptate reprehenderit nesciunt explicabo eum.
+        </p>
+        <button class="btn-outline-choix" type="button">Voir les prix</button>
+      </div>
+    </section>
+
+    <!-- SECTION EQUIPEMENT -->
+
+    <h2 class="titre-equipement">LES EQUIPEMENTS</h2>
+
+    <section id="equipement">
+      <button type="button" data-index="1" class="btn-modale"></button>
+      <button type="button" data-index="2" class="btn-modale"></button>
+      <button type="button" data-index="3" class="btn-modale"></button>
+      <button type="button" data-index="4" class="btn-modale"></button>
+      <button type="button" data-index="5" class="btn-modale"></button>
+      <button type="button" data-index="6" class="btn-modale"></button>
+      <button type="button" data-index="7" class="btn-modale"></button>
+      <button type="button" data-index="8" class="btn-modale"></button>
+      <button type="button" data-index="9" class="btn-modale"></button>
+    </section>
+
+    <div class="bloc-modale">
+      <div class="bloc-img">
+        <img
+          src="./assets/pictures/img9-equip.jpg"
+          alt="materiel de la salle de sport"
+        />
+        <button class="fermeture-modale">X</button>
+      </div>
+    </div>
+    <!-- SECTION PARRALAX -->
+
+    <section class="parralax">
+      <p class="parralax-txt">Courage</p>
+    </section>
+    <!-- SECTION TARIFS -->
+
+    <h2 class="titre-tarifs">TARIFS</h2>
+    <section id="tarifs">
+      <div class="carte-tarif">
+        <h3>basique</h3>
+        <p class="prix-carte"><span>20 </span>/ mois</p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/check.svg"
+            alt="emoji check vert"
+          />24h/24
+        </p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/cross.svg"
+            alt="emoji croix rouge"
+          />Coach
+        </p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/cross.svg"
+            alt="emoji croix rouge"
+          />Cross Fit
+        </p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/cross.svg"
+            alt="emoji croix rouge"
+          />Massage
+        </p>
+      </div>
+
+      <div class="carte-tarif">
+        <h3>Avance</h3>
+        <p class="prix-carte"><span>40 </span>/ mois</p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/check.svg"
+            alt="emoji check vert"
+          />24h/24
+        </p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/check.svg"
+            alt="emoji check vert"
+          />Coach
+        </p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/check.svg"
+            alt="emoji check vert"
+          />Cross Fit
+        </p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/cross.svg"
+            alt="emoji croix rouge"
+          />Massage
+        </p>
+      </div>
+
+      <div class="carte-tarif">
+        <h3>Extreme</h3>
+        <p class="prix-carte"><span>60 </span>/ mois</p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/check.svg"
+            alt="emoji check vert"
+          />24h/24
+        </p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/check.svg"
+            alt="emoji check vert"
+          />Coach
+        </p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/check.svg"
+            alt="emoji check vert"
+          />Cross Fit
+        </p>
+        <p class="info-carte">
+          <img
+            class="img-info-carte"
+            src="./assets/pictures/check.svg"
+            alt="emoji check vert"
+          />Massage
+        </p>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
